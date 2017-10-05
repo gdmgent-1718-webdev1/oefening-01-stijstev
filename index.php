@@ -1,6 +1,7 @@
 <?php 
-    $name = "Stijn";
-    $greeting = "Hallo, ${name}";
+    $string1 = "Hello";
+    $string2 = "World";
+    $strings = "{$string1} {$string2}";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +12,6 @@
     <title>Name</title>
 </head>
 <body>
-    <h1><?=$greeting?></h1>
+    <h1>These strings are concatenated! : <?=$strings?></h1>
 </body>
 </html>
